@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: black;
+}
+
+#cat-logo {
+    border-radius: 50%;
+    width: 85px;
+    border: #ffffff solid 3px;
+    transition: transform .2s; /* Animation */
+}
+
+#cat-logo:hover {
+    transform: scale(1.2);
+}
+.ul-header {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: #ffffff;
+    gap: 16px;
+}
+
